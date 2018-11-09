@@ -1,22 +1,19 @@
 {
   "name": "homeproject",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "test"
+    "start": "node ./bin/www",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nygaard92/HomeProject.git"
-  },
-  "author": "Sebastian Nygaard",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nygaard92/HomeProject/issues"
-  },
-  "homepage": "https://github.com/Nygaard92/HomeProject#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "jest": "^23.6.0",
+    "morgan": "~1.9.0"
   }
 }
