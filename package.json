@@ -1,0 +1,22 @@
+{
+  "name": "homeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nygaard92/HomeProject.git"
+  },
+  "author": "Sebastian Nygaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nygaard92/HomeProject/issues"
+  },
+  "homepage": "https://github.com/Nygaard92/HomeProject#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
